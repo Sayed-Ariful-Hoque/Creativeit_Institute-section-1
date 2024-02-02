@@ -1,0 +1,518 @@
+ /* Commun css part Start ================================== */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    img{
+       display: block;
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+     .title_text{
+        display: flex;
+        justify-content: center;
+          
+       }
+       .title_text h2{
+           font-family: 'Roboto Condensed', sans-serif;
+           font-weight: 700;
+           font-size: 18px;
+           color: #d5d5d5;
+           text-transform: uppercase;
+           position: relative;
+           margin-bottom: 44px;
+       }
+       .title_text h2::before{
+           content: "";
+           width: 100px;
+           height: 1px;
+           background:#535353;
+           position: absolute;
+           top: 50%;
+           left: -15px;
+           transform: translateX(-100px) translateY(50%);
+           
+       
+          
+       }
+       .title_text h2::after{
+           content: "";
+           width: 100px;
+           height: 1px;
+           background:#535353;
+           position: absolute;
+           top: 50%;
+           right: -15px;
+           transform: translateX(100px) translateY(50%);
+       }
+ /* Commun css part End ==================================== */
+ /*  Navebar Start ============================================== */
+    nav{
+        background: rgba(0, 0, 0, 0.44);
+        position: absolute;
+        width: 100%;
+    }
+    nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    nav .container .logo{
+       margin: 34px 33px;
+    }
+    nav .container .menu {
+       
+    }
+    nav .container .menu ul {
+        display: flex;
+        column-gap: 44px;
+    }
+    nav .container .menu ul li {
+       
+    }
+    nav .container .menu ul li .active{
+        color: #28b8d8;
+      }
+    nav .container .menu ul li a{
+        font-size: 14px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #d9d9da;
+
+    }
+    nav .container .menu ul li a:hover{
+       color: #28b8d8;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        line-height: 0.8;
+    }
+ /*  Navbar End ================================================ */
+ /*  Banner_part Start ================================================ */
+    #banner_part{
+        background: url(../imgs/banner.jpg);
+        padding: 330px 0 252px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #banner_part .container{
+        text-align: center;
+    }
+    #banner_part .container h1{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 50px;
+        color: #ffffff;
+    }
+    #banner_part .container h2{
+        color: #ffffff;
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;  
+        font-weight: 300;
+        margin: 20px 0;
+        text-transform: uppercase;
+    }
+    #banner_part .container p{
+        font-family: 'Roboto Slab', serif;  
+        font-weight: 300;
+        color: #cccbce;
+        font-size: 14px;
+    }
+ /*  Banner_part End ================================================ */
+ /* Service_part Start ================================================ */
+    #services_part{
+        background: #f9f9f9;
+        padding: 80px 0 83px;
+    }
+    
+    #services_part .container .text_title_area{
+        text-align: center;
+    }
+    #services_part .container .text_title_area h2{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
+        font-size: 30px;
+        color: #444444;
+    }
+    #services_part .container .text_title_area p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #8b8b8b;
+        margin: 24px 0 78px;
+    }
+    #services_part .container .text_title_area h3{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #444444;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    #services_part .container .main_services{
+       display: flex;
+       justify-content: space-between;
+    }
+    #services_part .container .main_services .service{
+        border: 1px solid #e3e3e3;
+        width: 370px;
+        padding: 16px 16px 28px;
+    }
+    #services_part .container .main_services .service .imgland img{
+       width: 100%;
+       
+    }
+    #services_part .container .main_services .service .text_area{
+        text-align: center;
+    }
+    
+    #services_part .container .main_services .service .text_area h3{
+        margin: 25px 0 11px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+        font-size: 17px;
+        color: #444444;
+    }
+    
+    #services_part .container .main_services .service .text_area p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #666666;
+        margin: 10px 0 0;
+    }
+
+
+    #short_pat .title_text{
+     display: flex;
+     justify-content: center;
+       
+    }
+    #short_pat .title_text h2{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #d5d5d5;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 44px;
+    }
+    #short_pat .title_text h2::before{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background:#535353;
+        position: absolute;
+        top: 50%;
+        left: -15px;
+        transform: translateX(-100px) translateY(50%);
+        
+    
+       
+    }
+    #short_pat .title_text h2::after{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background:#535353;
+        position: absolute;
+        top: 50%;
+        right: -15px;
+        transform: translateX(100px) translateY(50%);
+    }
+    
+    
+ /* Service_part End ================================================ */
+ /* Short_part Start ================================================ */
+    #short_pat{
+        padding: 50px 0;
+        background-color: #2c2c2c;
+    }
+    #short_pat .title_text{
+     display: flex;
+     justify-content: center;
+       
+    }
+    #short_pat .title_text h2{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #d5d5d5;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 44px;
+    }
+    #short_pat .title_text h2::before{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background:#535353;
+        position: absolute;
+        top: 50%;
+        left: -15px;
+        transform: translateX(-100px) translateY(50%);
+        
+    
+       
+    }
+    #short_pat .title_text h2::after{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background:#535353;
+        position: absolute;
+        top: 50%;
+        right: -15px;
+        transform: translateX(100px) translateY(50%);
+    }
+
+
+    #short_pat .maine_img{
+        display: flex;
+    }
+    #short_pat .maine_img .imge{
+        width: 25%;
+    }
+    #short_pat .maine_img .imge img{
+        width: 100%;
+    }
+
+    #short_pat .instragram_bnt {
+        text-align: center;
+        margin-top: 60px;
+    }
+    #short_pat .instragram_bnt a{
+        border: 1px solid #797979;
+        padding: 16px 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #878787;
+    }
+    #short_pat .instragram_bnt a i{
+        margin-right: 7px;
+    }
+
+
+
+ /* Short_part End ================================================ */
+ /* Journal_part start ================================================ */
+    #journal_part{
+        background: #f9f9f9;
+        padding: 77px 0 0;
+    }
+    #journal_part .title_text h2{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #444444;
+    }
+
+    #journal_part .title_text h2::before{
+        background: #d9d9d9;
+    }
+    #journal_part .title_text h2::after{
+        background: #d9d9d9;
+    }
+    #journal_part .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    #journal_part .container .journal{
+        border: 1px solid #878787;
+        width: 370px;
+        padding: 25px 0 30px;
+    }
+    #journal_part .container .journal h3{
+        text-align: center;
+        margin-bottom: 11px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+        font-size: 17px;
+        color: #444444;
+    }
+    #journal_part .container .journal .date{
+       display: block;
+       text-align: center;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 400px;
+       font-size: 12px;
+       color: #999999;
+    
+    }
+    
+    #journal_part .container .journal img{
+       width: 100%;
+       margin-top: 22px;
+    }
+    #journal_part .container .journal .text{
+        padding: 25px 26px 0;
+    }
+    #journal_part .container .journal .text p{
+        line-height: 22px;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400px;
+        color: #666666;
+    }
+    
+    #journal_part .container .journal .text .continue{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 23px;
+    }
+    #journal_part .container .journal .text .continue a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #999999;
+        font-size: 11px;
+      text-transform: uppercase;
+      position: relative;
+    }
+    #journal_part .container .journal .text .continue a::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 102px;
+        height: 1px;
+        background: #28b8d8;
+    }
+    #journal_part .container .journal .text .continue span{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #999999;
+        font-size: 11px;
+    }
+    #journal_part .container .journal .text .continue span i{
+        margin-right: 5px;
+         
+      
+    }
+    
+    
+
+ /* Journal_part End ================================================ */
+ /* About_part start ================================================ */
+   
+ #about_part{
+    padding: 81px 0;
+ }
+    #about_part .container{ 
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20px;
+    }
+    #about_part .container .about{
+        width: 50%;
+    }
+    #about_part .container .about .title_text{
+        justify-content: flex-start;
+    }
+    #about_part .container .about .title_text h2{
+      color:#444444;
+    }
+    #about_part .container .about .title_text h2::before{
+        display: none;
+        
+    }
+    #about_part .container .about .title_text h2::after{
+       background: #d9d9d9;
+        
+    }
+    #about_part .container .about .about_aria{
+        display: flex;
+     }
+    #about_part .container .about .about_aria img{
+        margin-right: 26px;
+    }
+    #about_part .container .about .about_aria  .about_text{
+        color: #666666;
+    }
+    #about_part .container .about .about_aria  .about_text p:first-child{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300px;
+        font-size: 18px;
+        line-height: 28px;
+       
+    }
+    #about_part .container .about .about_aria  .about_text p:last-child{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 22px;
+       
+    }
+
+    #about_part .container .my_service {
+        width: 50%;
+    }
+    #about_part .container .my_service .title_text {
+        justify-content: flex-start;
+    }
+    #about_part .container .my_service .title_text h2 {
+        color:#444444;
+    }
+    #about_part .container .my_service .title_text h2::before {
+       display: none;
+       
+    
+    }
+    #about_part .container .my_service .title_text h2::after {
+        background: #d9d9d9;
+    }
+    #about_part .container .my_service .service{
+        display: flex;
+        padding: 14px 0;
+    }
+    #about_part .container .my_service .service img{
+       width: 41px;
+       margin: 0 24px 0 6px;
+    }
+    #about_part .container .my_service .service .text_photograpy{
+       
+    }
+    #about_part .container .my_service .service .text_photograpy h3{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700px;
+       font-size: 17px;
+       margin-bottom: 20px;
+       color: #444444;
+    }
+    #about_part .container .my_service .service .text_photograpy p{
+        line-height: 22px;
+        font-size: 14px;
+        color: #666666;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+
+
+
+ /* About_part End ================================================ */
+
+
+
+
+
+ /* e3e3e3
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+  */

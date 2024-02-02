@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-div{
+    margin-left: 200px;
+}
+
+/* Bangladesh  */
+.bangladesh-1{
+    background-color: green;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.bangladesh-curcle-2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+
+}
+/* End Bangladesh  */
+
+
+
+
+/* England  */
+.england-1{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.england-2{
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.england-3{
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+/* End England  */
+
+
+
+ /* Madagar  */
+.madagar-1{
+    background-color: aliceblue;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.madagar-2{
+    background: red;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left:100% ;
+    transform: translateX(-100%);
+}
+.madagar-3{
+    background-color: green;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateX(-100%);
+}
+/* End Madagar  */
+
+
+
+/*  start mali  */
+.mali-1{
+    background-color: green;
+    width:600px;
+    height: 300px;
+    position: relative;
+}
+.mali-2{
+    background-color: yellow;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mali-3{
+    background-color: red;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%) ;
+}
+/* End Mali  */
+
+
+
+/* Start Malta */
+.malta-1{
+    background-color: aliceblue;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.malta-2{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+}
+.malta-3{
+    background-color: #b0aabee2;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+.malta-4{
+    background-color: #b0aabee2;
+    width: 30px;
+    height: 80px;
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    transform: translateX(-210%) translateY(-32%);
+}
+/* End Malta  */
+
+
+/* Start Armenia  */
+.armenia-1{
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.armenia-2{
+background-color: darkblue;
+width: 100%;
+height: 40%;
+position: absolute;
+top:50%;
+left: 0;
+transform: translateY(-50%);
+}
+.armenia-3{
+    background-color: tomato;
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(-100%);
+}
+/* End Armenia  */
+
+
+
+
+/* Start Austria  */
+.austria-1{
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.austria-2{
+background-color: whitesmoke;
+width: 100%;
+height: 40%;
+position: absolute;
+top:50%;
+left: 0;
+transform: translateY(-50%);
+}
+.austria-3{
+    background-color: red;
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(-100%);
+}
+/* End Austria */
+
+
+
+/* Start Belgium */
+.belgium-1{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+}
+.belgium-2{
+    width: 34%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.belgium-3{
+    width: 33%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+}
+/* End Belgium */
+
+
+/* Start Lvoire */
+.lvoire-1{
+    width: 600px;
+    height: 300px;
+    background-color: tomato;
+    position: relative;
+}
+.lvoire-2{
+    width: 34%;
+    height: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lvoire-3{
+    width: 33%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+}
+/* End Lvoire */
+
+
+
+/* Start France */
+.france-1{
+    width: 600px;
+    height: 300px;
+    background-color: navy;
+    position: relative;
+}
+.france-2{
+    width: 34%;
+    height: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.france-3{
+    width: 33%;
+    height: 100%;
+    background-color:red;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+}
+/* End France */
